@@ -66,7 +66,7 @@ public class FaceBookLoginManager {
      */
     public void initFaceBook(final Context context,
                              final String LTAppID, final String LTAppKey, final String adID,
-                             final int packageID,
+                             final String packageID,
                              final OnLoginSuccessListener mListener) {
         //LoginBackManager.getUUID(context);
         mFaceBookCallBack = CallbackManager.Factory.create();
